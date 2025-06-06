@@ -31,7 +31,7 @@ services:
     container_name: logstash
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-      - ./app.log:/var/log/app.log  # Sample log file
+      - ./app.log:/var/log/app.log  
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.10
