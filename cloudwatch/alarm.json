@@ -6,7 +6,7 @@ aws cloudwatch put-metric-alarm \
   --period 60 \
   --threshold 80 \
   --comparison-operator GreaterThanThreshold \
-  --dimensions Name=InstanceId,Value=i-0dd30799a2226dd33 \
+  --dimensions Name=InstanceId,Value=i-0625acce093dd3dc4 \
   --evaluation-periods 5 \
   --alarm-actions arn:aws:sns:REGION:ACCOUNT_ID:YourTopic \
   --unit Percent
